@@ -8,13 +8,22 @@ site. No server-side hosting, serverless cloud functions, or database necessary.
 Head over to the main [`jstayton/suri`](https://github.com/jstayton/suri)
 repository to learn more, including additional deployment methods.
 
-## Deploy in One Click (For Free)
+## Setup
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/staticsuri/suri-deploy-render)
-
-Once complete, try accessing the root path of your URL – it should redirect back
-to the main [`jstayton/suri`](https://github.com/jstayton/suri) repository if
-everything's working.
+1. Click the "Use this template" button above and then "Create a new
+   repository". Fill in the required details to create a new repository based on
+   this one.
+2. On the [Render Dashboard](https://dashboard.render.com/), create a new
+   Blueprint.
+3. Connect or re-configure your GitHub account to grant access to your new
+   repository. Select that repository and hit "Connect".
+4. Give the Blueprint a name, such as "Suri". The `main` branch should already
+   be selected. Hit "Apply" to begin the build and deploy process.
+5. Any commits to the `main` branch of your new repository will trigger a new
+   deploy. You can change this by going to the "Settings" of your `suri` service
+   and editing the "Branch" and "Auto-Deploy" options.
+6. If you want to use a custom domain, follow Render's guide:
+   [Custom Domains](https://render.com/docs/custom-domains).
 
 ## Manage Links
 
