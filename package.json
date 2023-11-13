@@ -1,0 +1,20 @@
+{
+  "name": "@suri/deploy-render",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A template repository tailored for deploying Suri to Render",
+  "homepage": "https://github.com/staticsuri/suri-deploy-render#readme",
+  "bugs": "https://github.com/staticsuri/suri-deploy-render/issues",
+  "license": "MIT",
+  "repository": "staticsuri/suri-deploy-render",
+  "scripts": {
+    "build": "suri"
+  },
+  "devDependencies": {
+    "suri": "github:jstayton/suri#v1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
