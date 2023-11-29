@@ -1,13 +1,13 @@
 {
-  "name": "@suri/deploy-render",
+  "name": "@surishortlink/deploy-render",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "description": "A template repository tailored for deploying Suri to Render",
-  "homepage": "https://github.com/staticsuri/suri-deploy-render#readme",
-  "bugs": "https://github.com/staticsuri/suri-deploy-render/issues",
+  "homepage": "https://github.com/surishortlink/suri-deploy-render#readme",
+  "bugs": "https://github.com/surishortlink/suri-deploy-render/issues",
   "license": "MIT",
-  "repository": "staticsuri/suri-deploy-render",
+  "repository": "surishortlink/suri-deploy-render",
   "scripts": {
     "build": "suri"
   },
