@@ -15,12 +15,12 @@ Suri, including additional deployment options.
 
 1. Hit the "Use this template" button above and then "Create a new repository".
    Fill in the required details to create a new repository based on this one.
-2. On the [Render Dashboard](https://dashboard.render.com/), create a new
-   Blueprint.
+2. On the [Render Dashboard](https://dashboard.render.com/), click "New >
+   Blueprint".
 3. Connect or re-configure your GitHub account to grant access to your new
    repository. Select that repository and hit "Connect".
 4. Give the Blueprint a name, such as "Suri". The `main` branch should already
-   be selected. Hit "Apply" to begin the initial build and deploy.
+   be selected. Hit "Deploy Blueprint" to begin the initial build and deploy.
 
 ### Auto-Deploy
 
@@ -31,7 +31,7 @@ service and editing the "Branch" and "Auto-Deploy" options.
 ### Custom Domain
 
 To use a custom domain, follow Render's guide:
-[Custom Domains](https://docs.render.com/custom-domains).
+[Custom Domains](https://render.com/docs/custom-domains).
 
 ## How It Works
 
@@ -51,8 +51,9 @@ include this file seeded with a few examples:
 
 It couldn't be simpler: the key is the "short link" path that gets redirected,
 and the value is the target URL. Keys can be as short or as long as you want,
-using whatever mixture of characters you want. `/` is a special entry for
-redirecting the root path.
+and can include `/` for nested paths, like `gh/suri`. Avoid `?` and `#`, which
+browsers treat as the start of a query string or fragment. `/` is a special
+entry for redirecting the root path.
 
 ### Build Static Site
 
